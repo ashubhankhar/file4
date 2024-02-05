@@ -72,8 +72,7 @@ import sys
 
 MediaList = {}
 Bot.start()
-loop = asyncio.new_event_loop()
-asyncio.set_event_loop(loop)
+loop = asyncio.get_event_loop()
 
 
 PORT = "8080"
